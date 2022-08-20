@@ -418,7 +418,7 @@ section.about__us{
 .about__us__text {
   width: 761px;
   height: 543px;
-  margin: 172px 0 auto 324px;
+  margin: 172px auto 0 auto;
   position: relative;
 }
 section.about__us h4 {
