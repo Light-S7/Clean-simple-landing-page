@@ -1,0 +1,481 @@
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.container{
+  max-width: 1441px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+body {
+
+  font-family: 'Quicksand', sans-serif;
+  /*font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;*/
+
+  margin: 0 ;
+}
+header {
+  width: 1440px;
+  height: 80px;
+  margin: 0 auto;;
+  display: flex;
+  line-height: 15px;
+}
+.logo {
+  width: 26px;
+  height: 26px;
+  margin-top: 27px;
+  margin-left: 117px;
+  margin-right: 73px;
+}
+ul {
+  margin-top: 31px;
+  display: flex;
+}
+header a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #697CA6;
+  line-height: 15px;
+  letter-spacing: 5%;
+}
+header li + li {
+  margin-left: 42px;
+}
+header a.active {
+  font-weight: 700;
+  color: #5E81FE;
+}
+.social_media {
+  margin: 32px 44px 32px 361px;
+}
+.social_media a + a {
+  padding-left: 37px;
+}
+header button {
+  font-size: 13px;
+  font-weight: 700;
+  color: #3A79FF;
+
+  background: #D2E1FF;
+  width: 113px;
+  height: 43px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+
+  margin-top: 19px;
+}
+.wrapper {
+  height: 570px;
+  background-image: url(../img/slider.png);
+
+  background-size: cover;
+  margin: 0 auto;
+  padding: 0;
+}
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 10%;
+  color: #3D4F9F;
+
+  padding: 90px 0 16px;
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 60px;
+  color: #3D4F9F;
+  text-align: center;
+  margin: 0;
+}
+h1 span {
+  font-weight: 500;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #3D4F9F;
+  margin: 0;
+}
+h2 span {
+  font-weight: 500;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #3D4F9F;
+  text-align: center;
+}
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 177%;
+  color: #4074F8;
+  text-align: center;
+}
+p.simple {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 3%;
+  color: #8D96BD;
+
+  display: flex;
+  margin: 28px auto 0;
+  text-align: center;
+  width: 502px;
+}
+button {
+  cursor: pointer;
+}
+button[name="play_button"] {
+  width: 52px;
+  height: 52px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 26px;
+  box-shadow: 0 10px 50px #C9D1E7;
+  cursor: pointer;
+
+  display: flex;
+  margin: 20px auto 168px;
+  padding: 21px 22px;
+}
+
+
+.slick-track {
+  display: flex;
+}
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8px;
+  margin: 0;
+  padding-bottom: 28px;
+}
+.slick-dots li {
+  list-style: none;
+  margin: 0 6px;
+  padding: 0;
+}
+.slick-dots button {
+  font-size: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #D1D6E3;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+}
+.slider .slick-dots li.slick-active button {
+  background-color: #5283FF;
+}
+
+
+section.customers {
+  border-bottom: 1px solid #D8E3FE;
+}
+ul.customer__logo {
+  display: flex;
+  width: 888px;
+  height: 29px;
+  margin: 58px auto;
+}
+ul.customer__logo li + li {
+  margin-left: 78px;
+}
+.bitbucket {
+  background-image: url(../img/bitbucket.png);
+  width: 116.59px;
+  height: 29px;
+}
+.watch {
+  background-image: url(../img/watch.png);
+  width: 116.58px;
+  height: 24.29px;
+}
+.facebook {
+  background-image: url(../img/facebook.png);
+  width: 116.58px;
+  height: 22.37px;
+}
+.atlassian {
+  background-image: url(../img/atlassian.png);
+  width: 116.57px;
+  height: 24.07px;
+}
+.audi {
+  background-image: url(../img/audi.png);
+  width: 116.58px;
+  height: 28.94px;
+}
+.bitbucket:hover {
+  background-image: url(../img/bitbucket_hover.png);
+}
+.watch:hover {
+  background-image: url(../img/watch_hover.png);
+}
+.facebook:hover {
+  background-image: url(../img/facebook_hover.png);
+}
+.atlassian:hover {
+  background-image: url(../img/atlassian_hover.png);
+}
+.audi:hover {
+  background-image: url(../img/audi_hover.png);
+}
+
+
+section.app {
+  background: #F5F8FF;
+  height: 776px;
+  display: flex;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  display: flex;
+}
+div.app__container {
+  display: flex;
+}
+div.app__infomation {
+  width: 413px;
+  height: 352px;
+  margin: 209px 55px 0 271px;
+}
+div.app__infomation h4{
+  text-align: left;
+  padding-top: 0;
+  padding-bottom: 28px;
+}
+div.app__infomation h3{
+  padding-top: 28px;
+  padding-bottom: 27px;
+}
+div.app__infomation p {
+  text-align: left;
+  height: 151px;
+  margin-bottom: 47px;
+}
+div.app__infomation__buttons {
+  display: flex;
+  width: 413px;
+  height: 352px;
+}
+button.view__video {
+  width: 130px;
+  height: 43px;
+  background: #4C85FF;
+  border: none;
+  border-radius: 2px 0 0 2px;
+
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 700;
+
+  display: flex;
+  padding: 0;
+}
+button.view__video p {
+  padding-left: 25px;
+  padding-right: 6px;
+  margin-left: 0;
+}
+button.view__video img {
+  margin: auto 0;
+}
+button.see__features {
+  width: 130px;
+  height: 43px;
+  background: #F5F8FF;
+  border: 1px solid #D1D1E4;
+  border-radius: 0 2px 2px 0;
+
+  color: #D1D1E4;
+  font-size: 13px;
+  font-weight: 500;
+
+  display: flex;
+  padding: 0;
+}
+button.see__features p {
+  margin: 12px auto;
+}
+div.screens {
+  position: relative;
+  width: 653px;
+  height: 436px;
+  display: flex;
+  margin: 171px 48px 0 0;
+}
+img.descktop {
+  margin-left: 80px;
+  position: absolute;
+  box-shadow: 0 20px 40px rgba(53, 60, 115, 0.15);
+  border-radius: 15px 15px 0 0;
+}
+img.app1 {
+  position: absolute;
+  margin-top: 156px;
+  margin-right: 62px;
+  margin-left: 443px;
+  box-shadow: -25px 4px 100px rgba(53, 60, 115, 0.15);
+  border-radius: 15px;
+}
+img.app2 {
+  position: absolute;
+  margin-top: 100px;
+  box-shadow: 0 20px 40px rgba(53, 60, 115, 0.15);
+  border-radius: 15px;
+}
+div.panel {
+  width: 606px;
+  height: 19.8px;
+  background: #FFFFFF;
+
+  position: absolute;
+  margin-left: 47px;
+  margin-top: 329px;
+  border-radius: 0 0 15px 15px;
+}
+
+
+div.icon {
+  width: 69px;
+  height: 69px;
+  background: #F1F5FF;
+  border-radius: 50%;
+}
+section.about__us p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 177%;
+  color: #ADB3CB;
+}
+div.grey__line {
+  width: 28px;
+  height: 1px;
+  background: #DAE4FE;
+}
+div.about__us__buttons button {
+  width: 113px;
+  height: 43px;
+  border-radius: 2px;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 700;
+  border: none;
+}
+button.read_more {
+  color: #D43F3F;
+  background: #FFD7D7;
+}
+button.get_started {
+  color: #3A79FF;
+  background: #D2E1FF;
+}
+div.about__us__buttons div.grey__line {
+  width: 15px;
+}
+
+
+section.about__us{
+  height: 885px;
+  border-top: 1px solid #D8E3FE;
+}
+.about__us__div {
+  display: flex;
+  margin: 0 auto;
+  weight: 1201px;
+  height: 573px;
+}
+.about__us__text {
+  width: 761px;
+  height: 543px;
+  margin: 172px 0 auto 324px;
+  position: relative;
+}
+section.about__us h4 {
+  padding: 0;
+}
+section.about__us h3 {
+  margin: 20px 0 84px;
+}
+div.elements {
+  width: 761px;;
+  height: 254px;
+  display: flex;
+  margin: 0 auto;
+}
+div.element {
+  width: 140px;
+  height: 254px;
+}
+div.icon {
+  margin: 0 auto;
+  display: flex;
+}
+div.icon img {
+  margin: auto;
+}
+div.element p {
+  text-align: center;
+}
+div.elements div.grey__line {
+  margin-top: 126px;
+}
+div.element + div.grey__line {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+div.about__us__buttons {
+  width: 337px;
+  height: 43px;
+  margin: 92px auto 0;
+
+  display: flex;
+}
+div.about__us__buttons div.grey__line {
+  width: 15px;
+  height: 1px;
+  margin-top: 21px;
+}
+div.about__us__buttons button {
+  padding: 0;
+}
+div.about__us__buttons button {
+  margin-right: 21px;
+}
+div.grey__line + button {
+  margin-left: 21px;
+}
+div.grey__line + p {
+  margin-left: 21px;
+  margin-right: 21px;
+}
